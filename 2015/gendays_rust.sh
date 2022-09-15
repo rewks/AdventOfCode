@@ -3,7 +3,7 @@
 # modified script by 0xdf https://gitlab.com/0xdf/aoc2015-rust/-/blob/main/genday.sh
 session=""
 
-for i in {1..25}
+for i in {01..25}
 do
     project=day$i
     cargo new $project
